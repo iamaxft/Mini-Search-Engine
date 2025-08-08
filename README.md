@@ -1,13 +1,18 @@
 Mini Search EngineThis project is a complete, functional search engine built from scratch in Python. 
+
 It demonstrates a fundamental understanding of web crawling, data indexing, and information retrieval. 
 The system is composed of three core components: a Crawler, an Indexer, and a Searcher.This project serves as a practical example of the core principles 
 behind major search engines like Google and showcases key skills in backend software engineering and data structures.
+
 FeaturesWeb Crawler: A polite and robust crawler that navigates websites starting from a seed URL, respects robots.txt protocols,
 and stores page content in a local SQLite database.Inverted Indexer: Processes the raw text from crawled pages, cleans it by removing stop words and punctuation, 
 and builds an efficient inverted index to map words to the documents they appear in.Ranked Search: A command-line interface that takes user queries, 
 uses the inverted index for instant lookups, and ranks the results based on a simple term-frequency scoring algorithm.
+
 Modular Architecture: Cleanly separated components (crawler.py, indexer.py, searcher.py) that demonstrate a well-designed system.
+
 Tech StackLanguage: Python 3Data Storage: SQLite3 (for crawled pages), JSON (for the inverted index)
+
 Core Libraries:requests: For making HTTP requests.BeautifulSoup4: For parsing HTML content.NLTK: For natural language processing tasks like tokenization and
 stop word removal.urllib.robotparser: For respecting website crawling rules.Setup and InstallationFollow these steps to get the project running on your local machine.
 
