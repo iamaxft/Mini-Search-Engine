@@ -35,7 +35,10 @@ source venv/bin/activate
 UsageThe project must be run in three sequential steps:
 
 Step 1: Run the CrawlerThis will start at the seed URL, crawl up to 50 pages, and save the content in search_engine.db.python crawler.py
-Step 2: Run the IndexerThis will read the data from search_engine.db, build the search index, and save it as inverted_index.json.python indexer.py
+
+Step 2: Run the IndexerThis will read the data from search_engine.db, build the search index, 
+and save it as inverted_index.json.python indexer.py
+
 Step 3: Run the SearcherThis will load the index and start the interactive search interface.python searcher.py
 
 You can now type queries into the terminal. Type exit to quit.
