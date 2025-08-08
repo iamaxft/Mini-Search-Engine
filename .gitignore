@@ -1,0 +1,15 @@
+Python
+pycache/
+*.pyc
+
+Virtual Environment
+venv/
+.venv/
+
+IDE / Editor specific
+.idea/
+.vscode/
+
+Generated data files
+search_engine.db
+inverted_index.json
